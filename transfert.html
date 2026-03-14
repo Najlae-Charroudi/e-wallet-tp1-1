@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Wallet | Transfert</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+
+<a href="dashboard.html" class="logo">
+<img src="src/e-Wallet6.gif" alt="Logo E-Wallet">
+</a>
+
+</nav>
+</header>
+
+
+<main class="dashboard-main">
+<div class="dashboard-container">
+
+<div class="dashboard-content">
+
+<section class="dashboard-section active">
+
+<div class="section-header">
+<h2>Effectuer un transfert</h2>
+</div>
+
+<div class="transfer-form">
+
+<div class="input-group">
+<input type="text" id="beneficiaire" placeholder="Bénéficiaire">
+</div>
+
+<div class="input-group">
+<input type="number" id="amount" placeholder="Montant">
+</div>
+
+<button id="transferBtn" class="btn btn-primary">
+Transférer
+</button>
+
+<p id="transferResult"></p>
+
+</div>
+
+</section>
+
+</div>
+</div>
+</main>
+
+
+<footer>
+<p>&copy; 2026 E-Wallet. Tous droits réservés.</p>
+</footer>
+
+<script type="module" src="controllers/transfert.js"></script>
+
+</body>
+</html>
